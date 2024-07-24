@@ -11,5 +11,5 @@ el desarrollo de este proyecto debe demostra que cumplo con los requisitos para 
 =======
 >>>>>>> 7e07ecd25754032b7a1ea3453e8f03cc68356cf4
 <ul>Se resolvio el problema de actualización del readme con el comando "git pull origin main --allow-unrelated-histories"
-
+<ul>Se avanza el header, section, footer y los botones dec enlace en index.html</li>
 <li>Tiempo estimado del desarrollo del proytecto en 2 semanas </li>
