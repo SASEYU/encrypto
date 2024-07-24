@@ -10,6 +10,6 @@ el desarrollo de este proyecto debe demostra que cumplo con los requisitos para 
 <ul>-El dia 23/07/2024 se cambia de la carpeta encryto a la carpeta encrypto</ul>
 =======
 >>>>>>> 7e07ecd25754032b7a1ea3453e8f03cc68356cf4
-<ul>Se resolvio el problema de actualización del readme con el comando '''fatal: cannot do a partial commit during a merge.'''
+<ul>Se resolvio el problema de actualización del readme con el comando "git pull origin main --allow-unrelated-histories"
 
 <li>Tiempo estimado del desarrollo del proytecto en 2 semanas </li>
