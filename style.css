@@ -26,12 +26,10 @@ header{
 }
 
 header img {
-    width: 31.09;
-    height: 48px;
-    left: 44px;
-    /*position: absolute;
-    left: 20px;
-    top: 0;*/
+    
+    position: absolute;
+    left: 0px;
+    top: 0;
 }
 header h1 {
     
@@ -49,25 +47,42 @@ main {
     padding: 20px;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
 }
 
-.main-container {
-    display: flex;
+section {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+}
+
+section.reptangulo {
+    width: 400px;
+    height: 944px;
+    position: absolute;
+    top: 40px;
+    left: 1000px;
+    border: 32px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px(0, 0, 0, 0.1);
+    padding: 20px;
+    
 }
 
 form {
     width: 100%;
-    max-width: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 input[type="text"] {
     width: 100%;
     padding: 10px;
@@ -95,37 +110,12 @@ button {
     margin-top: 20px;
 }
 
-section {
-    flex: 1;
-    padding: 20px;
-    box-sizing: border-box; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    ;
-}
-
-.contenedor {
-    width: 100%;
-    max-width: 300px;
-    border: 2px solid #ffffff;
-    border-radius: 16px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.comntenedor img {
-    display: block;
-    margin-bottom: 10px;
-}
-
-.contenedor textarea {
+textarea {
     width: 100%;
     height: 100px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
 }
