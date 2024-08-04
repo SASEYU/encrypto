@@ -11,27 +11,37 @@
 
 <body>
     <header>
-        <img src="./imagenes/logok.png" alt="Logo" width="200" height="100">
+        <img class="logo" src="./imagenes/logok.png" alt="Logo" width="200" height="100">
         <h1>Enigma</h1>
     </header>
     <main>
-        <section>
-        <h2>Ingresa el texto aqui</h2>
-        <form>
-            <input type="text" id="entrada" name="entrada" placeholder="Escriba el texto aqui">
-            <p>Ingresar solo letras minusculas y sin acento</p>
-            <div class="buttons">
-                <button type="button">Encriptar</button>
-                <button type="button">Desencriptar</button>
+        <section class="entrada">
+            <div class="textarea-container">
+                <textarea class="text-box" placeholder="Ingrese el texto aqui"></textarea>
             </div>
-        </form>
-    </section>  
-    <section class="reptangulo">
-            <img src="./imagenes/encripta.png" alt="Encriptador" width="336" height="304">
-            <textarea name="salida" id="salida" placeholder="Salida del texto"></textarea>
-        <div>
-            <button type="button">Copiar</button>
-        </div>
+            <div class="alert">
+                <img src="" alt="alerta">
+                <p>Ingresar solo letras minusculas y sin acento</p>
+            </div>
+            <div class="buttons-container">
+                <input type="button" class="btn-encriptar" value="Encriptar">
+                <input type="button" class="btn-desencriptar" value="Desencriptar">
+            </div>
+        </section>  
+        <section class="salida">
+            <div class="image-container">
+                <img src="./imagenes/encripta.png" alt="Encriptador" width="336" height="304">         
+            </div>
+            <div class="text-container">
+                <h3>Ningún mensaje fue <br> encontrado</h3>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar</p>
+            </div>
+            <div class="copy-container">
+                <input class="btn-copy" type="button" value="Copiar" >
+            </div>
+            <div class="resultado-container">
+                <p class="text-resultado"></p>
+            </div>
     </section>
 </main>
     <footer>
