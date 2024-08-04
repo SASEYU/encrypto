@@ -15,4 +15,5 @@ el desarrollo de este proyecto debe demostra que cumplo con los requisitos para 
 <ul>El día 26/07/2024 se realiza cambios en el html y css; dentro de los cambios realizados se coloca background, se trabaja en header ce centra titulo y se ubica el logo, se define el main, el secction y el footer</ul>
 <li>Tiempo estimado del desarrollo del proytecto en 2 semanas </li>
 <li>Dia 01/08/2024 se revisa los codigos del cahallemnge y se modifica despues de haber revisado las clases anteriores, se logra dar la forma reptangular a la seccion derecha modificacion de archivo .index.html y archivo style.css</li> 
-<li>02/08/2024 Revisión de codigod html y css se vuelve a rearmar los codigos <li>
+<li>0/2/08/2024 Revisión de codigod html y css se vuelve a rearmar los codigos </li>
+<li>03/03/2024 Modificación de codigos html, css </li>
