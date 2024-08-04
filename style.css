@@ -2,36 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'inter', sans-serif;
 }
 
 body {
     background: linear-gradient(to right, #ffffff, #FA0900);
     color: #0000;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
-    font: Inter;
+    font: Inter;  */
     
-}
+} 
 
 header{
     color: #000;
     width: 100%;
-
-    padding: 10px 20px;
+    height: 70px;
+    /*padding: 10px 20px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    position: relative; 
-}
+    position: relative;  */
+} 
 
-header img {
+/*.logo {
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px; 
+}*/
+/*header img*/ .logo {
     
     position: absolute;
     left: 0px;
     top: 0;
-}
+} 
 header h1 {
     
     margin: 20px 0 0 0;
@@ -44,16 +51,57 @@ header h1 {
 
 main {
     color: #000;
-    flex: 2;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    /*flex: 2;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: flex-start; */
 }
 
-section {
+.textarea-container {
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding-left: 100px;
+    width: 100px;
+    height: 600px;
+
+}
+
+.text-box {
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'inter', sans-serif;
+}
+
+
+.text-box::placeholder {
+    color: #0a3871;
+}
+
+.alert {
+    position: absolute;
+    top: 750px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+}
+
+
+/*section {
     flex: 1;
     padding: 20px;
     box-sizing: border-box;
@@ -62,9 +110,9 @@ section {
     justify-content: center;
     align-items: center;
     max-width: 500px;
-}
+} */
 
-section.reptangulo {
+/*section.reptangulo {
     width: 400px;
     height: 1200px;
     margin-right: 0;
@@ -118,10 +166,10 @@ textarea {
     border-radius: 5px;
     box-sizing: border-box;
     margin-bottom: 10px;
-}
+} */
 
 
-footer{
+/*footer{
     color: #000;
     text-align: center;
     padding: 10px 0;
@@ -132,4 +180,4 @@ footer a{
     margin: 0 10px;
     color: #000;
     text-decoration: none;
-}
+}*/
